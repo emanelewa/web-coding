@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+.wrapper .overlay-wrapped{
+    width: auto;
+    height: auto;
+    border: 1px solid #3e36ff;
+}
+.wrapper .overlay-wrapped .main-section__links li a .svg-inline--fa{
+    color: white!important;
+}
