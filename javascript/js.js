@@ -1,3 +1,31 @@
+/*fixed menu*/
+
+var myMenu = document.getElementById("menu");
+function down() {
+    if(myMenu.style.display === "none"){
+        myMenu.style.display = "block";
+    }else {
+        myMenu.style.display = "none";
+    }
+}
+
+
+/*appear fixed menu*/
+
+/*var myHeader = document.getElementById("show");
+if( window.scrollY > 20){
+    myHeader.style.display = "block";
+}else {
+    myHeader.style.display = "none";
+}*/
+
+
+
+
+
+
+
+
 /* slider*/
 document.getElementsByTagName('html')[0].className += ' js';
 

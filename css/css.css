@@ -1,17 +1,925 @@
+/*external fonts*/
+@font-face {
+    src: url("../fonts/GOTHICBI.TTF");
+    font-family: GOTHICBI;
+}
+@font-face {
+    src: url("../fonts/Rafale BG.otf");
+    font-family: Rafale BG;
+}
+@font-face {
+    src: url("../fonts/Century Gothic.ttf");
+    font-family: Century Gothic;
+}
+
+
 body{
     margin: 0;
     padding: 0;
 }
-.wrapper{
-    max-width: 100%;
-    height: auto;
-    border: 1px solid red;
+
+
+/*===================================================================================================
+                                   header and slider section
+====================================================================================================
+*/
+
+@media (min-width: 320px) and (max-width: 649px) {
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid red;
+        position: relative;
+    }
+
+    .wrapper .header{
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+        border: 1px solid #fa4dff;
+        overflow: hidden;
+        position: fixed;
+        display: block;
+        z-index: 99999;
+        background-color: white;
+    }
+    .wrapper .header .header_content{
+        width: 80%;
+        height: auto;
+        border: 1px solid #44fff8;
+        margin: 0 auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper .header .header_content .logo{
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        border: 1px solid #5dff32;
+        display: inline-block;
+
+    }
+    .wrapper .header .header_content .logo img{
+        width: auto;
+        float: left;
+        margin: 10px auto;
+    }
+    .wrapper .header .header_content .logo .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper .header .header_content .logo .text_logo h1{
+        font-size: 28px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .logo .text_logo h4{
+        font-size: 15px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .svg-inline--fa{
+        float: right;
+        color: #f8941d;
+        font-size: 20px;
+        margin: 15px 0;
+        cursor: pointer;
+    }
+
+    .wrapper .header .header_content nav{
+        margin-top: 30px;
+        overflow: hidden;
+        border: 1px solid #0f0810;
+        display: none;
+    }
+    .wrapper .header .header_content nav ul {
+        width: 100%;
+        height: auto;
+        border: 1px solid #2dff1a;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        overflow: hidden;
+    }
+    .wrapper .header .header_content nav ul li {
+        width: 100%;
+        height: auto;
+        list-style: none;
+        padding: 5px 0;
+        border-bottom: 1px solid #00aeef;
+    }
+    .wrapper .header .header_content nav ul li:hover{
+        background-color: #f8941d;
+    }
+
+    .wrapper .header .header_content nav ul li:hover a{
+        color: white;
+    }
+    .wrapper .header .header_content nav ul li a {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        font-family: GOTHICBI;
+        color: #0076a3;
+        text-decoration: none;
+    }
+
+    /*menu*/
+    .wrapper .overlay-wrapped .head{
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        border: 1px solid red;
+        position: absolute;
+        z-index: 500;
+        overflow: hidden;
+        display: none;
+    }
+
+    /*slider*/
+    .wrapper .overlay-wrapped{
+        width: auto;
+        height: auto;
+        border: 1px solid #3e36ff;
+    }
+    .wrapper .overlay-wrapped .main-section__links li a .svg-inline--fa{
+        color: white!important;
+    }
 }
-.wrapper .overlay-wrapped{
-    width: auto;
-    height: auto;
-    border: 1px solid #3e36ff;
+
+@media (min-width: 650px) and (max-width: 767px) {
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid red;
+        position: relative;
+    }
+
+    /*fixed menu*/
+
+    .wrapper .header{
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+        border: 1px solid #fa4dff;
+        overflow: hidden;
+        position: fixed;
+        z-index: 99999;
+        background-color: white;
+        display: none;
+    }
+    .wrapper .header .header_content{
+        width: 80%;
+        height: auto;
+        border: 1px solid #44fff8;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .header .header_content .logo{
+        width: 22%;
+        height: auto;
+        border: 1px solid #5dff32;
+        display: inline-block;
+        float: left;
+    }
+    .wrapper .header .header_content .logo img{
+        float: left;
+        margin: 10px auto;
+        width: 25%;
+    }
+    .wrapper .header .header_content .logo .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper .header .header_content .logo .text_logo h1{
+        font-size: 15px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .logo .text_logo h4{
+        font-size: 12px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .svg-inline--fa{
+        float: right;
+        color: #f8941d;
+        font-size: 20px;
+        margin: 15px 0;
+        cursor: pointer;
+        display: none;
+    }
+
+    .wrapper .header .header_content nav{
+        overflow: hidden;
+        border: 1px solid #0f0810;
+        float: right;
+        padding: 20px 0;
+    }
+    .wrapper .header .header_content nav ul {
+        border: 1px solid #2dff1a;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .wrapper .header .header_content nav ul li {
+        height: auto;
+        list-style: none;
+        float: left;
+        margin-left: 6px;
+    }
+    .wrapper .header .header_content nav ul li:hover a{
+        color: #f8941d;
+    }
+    .wrapper .header .header_content nav ul li a {
+        height: auto;
+        font-size: 12px;
+        font-family: GOTHICBI;
+        color: #0076a3;
+        text-decoration: none;
+    }
+
+
+
+    /*menu*/
+    .wrapper .overlay-wrapped{
+        position: relative;
+    }
+    .wrapper .overlay-wrapped .head{
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        border: 1px solid red;
+        position: absolute;
+        z-index: 500;
+        overflow: hidden;
+        display: block;
+    }
+    .wrapper .overlay-wrapped .head .head_content{
+        width: 80%;
+        border: 1px solid #fc5eff;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+        display: block;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo{
+        width: 22%;
+        height: auto;
+        border: 1px solid #5dff32;
+        display: inline-block;
+        float: left;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo img{
+        float: left;
+        margin: 10px auto;
+        width: 25%;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo{
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+        float: left;
+        width: 20%;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo h1{
+        font-size: 15px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: white;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo h4{
+        font-size: 12px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: white;
+    }
+
+    .wrapper .overlay-wrapped .head .head_content nav{
+        overflow: hidden;
+        border: 1px solid #0f0810;
+        float: right;
+        padding: 20px 0;
+    }
+    .wrapper .overlay-wrapped .head .head_content nav ul {
+        border: 1px solid #2dff1a;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .wrapper .overlay-wrapped .head .head_content nav ul li {
+        height: auto;
+        list-style: none;
+        float: left;
+        margin-left: 8px;
+    }
+
+    .wrapper .overlay-wrapped .head .head_content nav ul li a {
+        height: auto;
+        font-size: 12px;
+        font-family: GOTHICBI;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    /*slider*/
+    .wrapper .overlay-wrapped{
+        width: auto;
+        height: auto;
+        border: 1px solid #3e36ff;
+    }
+    .wrapper .overlay-wrapped .main-section__links li a .svg-inline--fa{
+        color: white!important;
+    }
 }
-.wrapper .overlay-wrapped .main-section__links li a .svg-inline--fa{
-    color: white!important;
+
+@media (min-width: 768px) and (max-width: 991px){
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid red;
+        position: relative;
+    }
+
+    /*fixed menu*/
+
+    .wrapper .header{
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+        border: 1px solid #fa4dff;
+        overflow: hidden;
+        position: fixed;
+        z-index: 99999;
+        background-color: white;
+        display: none;
+    }
+    .wrapper .header .header_content{
+        width: 80%;
+        height: auto;
+        border: 1px solid #44fff8;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .header .header_content .logo{
+        width: 22%;
+        height: auto;
+        border: 1px solid #5dff32;
+        display: inline-block;
+        float: left;
+    }
+    .wrapper .header .header_content .logo img{
+        float: left;
+        margin: 10px auto;
+        width: 25%;
+    }
+    .wrapper .header .header_content .logo .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper .header .header_content .logo .text_logo h1{
+        font-size: 15px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .logo .text_logo h4{
+        font-size: 12px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .svg-inline--fa{
+        float: right;
+        color: #f8941d;
+        font-size: 20px;
+        margin: 15px 0;
+        cursor: pointer;
+        display: none;
+    }
+
+    .wrapper .header .header_content nav{
+        overflow: hidden;
+        border: 1px solid #0f0810;
+        float: right;
+        padding: 20px 0;
+    }
+    .wrapper .header .header_content nav ul {
+        border: 1px solid #2dff1a;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .wrapper .header .header_content nav ul li {
+        height: auto;
+        list-style: none;
+        float: left;
+        margin-left: 6px;
+    }
+    .wrapper .header .header_content nav ul li:hover a{
+        color: #f8941d;
+    }
+    .wrapper .header .header_content nav ul li a {
+        height: auto;
+        font-size: 12px;
+        font-family: GOTHICBI;
+        color: #0076a3;
+        text-decoration: none;
+    }
+
+
+
+    /*menu*/
+    .wrapper .overlay-wrapped{
+        position: relative;
+    }
+    .wrapper .overlay-wrapped .head{
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        border: 1px solid red;
+        position: absolute;
+        z-index: 500;
+        overflow: hidden;
+        display: block;
+    }
+    .wrapper .overlay-wrapped .head .head_content{
+        width: 80%;
+        border: 1px solid #fc5eff;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+        display: block;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo{
+        width: 22%;
+        height: auto;
+        border: 1px solid #5dff32;
+        display: inline-block;
+        float: left;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo img{
+        float: left;
+        margin: 10px auto;
+        width: 25%;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo{
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+        float: left;
+        width: 20%;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo h1{
+        font-size: 18px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: white;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo h4{
+        font-size: 13px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: white;
+    }
+
+    .wrapper .overlay-wrapped .head .head_content nav{
+        overflow: hidden;
+        border: 1px solid #0f0810;
+        float: right;
+        padding: 20px 0;
+    }
+    .wrapper .overlay-wrapped .head .head_content nav ul {
+        border: 1px solid #2dff1a;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .wrapper .overlay-wrapped .head .head_content nav ul li {
+        height: auto;
+        list-style: none;
+        float: left;
+        margin-left: 8px;
+    }
+
+    .wrapper .overlay-wrapped .head .head_content nav ul li a {
+        height: auto;
+        font-size: 14px;
+        font-family: GOTHICBI;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    /*slider*/
+    .wrapper .overlay-wrapped{
+        width: auto;
+        height: auto;
+        border: 1px solid #3e36ff;
+    }
+    .mistify__slide-title, .mistify__info-title{
+        font-size: 30px;
+    }
+    .wrapper .overlay-wrapped .main-section__links li a .svg-inline--fa{
+        color: white!important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid red;
+        position: relative;
+    }
+
+    /*fixed menu*/
+
+    .wrapper .header{
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+        border: 1px solid #fa4dff;
+        overflow: hidden;
+        position: fixed;
+        z-index: 99999;
+        background-color: white;
+        display: none;
+    }
+    .wrapper .header .header_content{
+        width: 80%;
+        height: auto;
+        border: 1px solid #44fff8;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .header .header_content .logo{
+        width: 22%;
+        height: auto;
+        border: 1px solid #5dff32;
+        display: inline-block;
+        float: left;
+    }
+    .wrapper .header .header_content .logo img{
+        float: left;
+        margin: 10px auto;
+        width: 25%;
+    }
+    .wrapper .header .header_content .logo .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper .header .header_content .logo .text_logo h1{
+        font-size: 15px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .logo .text_logo h4{
+        font-size: 12px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .svg-inline--fa{
+        float: right;
+        color: #f8941d;
+        font-size: 20px;
+        margin: 15px 0;
+        cursor: pointer;
+        display: none;
+    }
+
+    .wrapper .header .header_content nav{
+        overflow: hidden;
+        border: 1px solid #0f0810;
+        float: right;
+        padding: 20px 0;
+    }
+    .wrapper .header .header_content nav ul {
+        border: 1px solid #2dff1a;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .wrapper .header .header_content nav ul li {
+        height: auto;
+        list-style: none;
+        float: left;
+        margin-left: 6px;
+    }
+    .wrapper .header .header_content nav ul li:hover a{
+        color: #f8941d;
+    }
+    .wrapper .header .header_content nav ul li a {
+        height: auto;
+        font-size: 12px;
+        font-family: GOTHICBI;
+        color: #0076a3;
+        text-decoration: none;
+    }
+
+
+
+    /*menu*/
+    .wrapper .overlay-wrapped{
+        position: relative;
+    }
+    .wrapper .overlay-wrapped .head{
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        border: 1px solid red;
+        position: absolute;
+        z-index: 500;
+        overflow: hidden;
+        display: block;
+    }
+    .wrapper .overlay-wrapped .head .head_content{
+        width: 80%;
+        border: 1px solid #fc5eff;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+        display: block;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo{
+        width:auto;
+        height: auto;
+        border: 1px solid #5dff32;
+        display: inline-block;
+        float: left;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo img{
+        float: left;
+        margin: 10px auto;
+        width: auto;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo{
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+        float: left;
+        width:auto;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo h1{
+        font-size: 28px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: white;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo h4{
+        font-size: 15px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: white;
+    }
+
+    .wrapper .overlay-wrapped .head .head_content nav{
+        overflow: hidden;
+        border: 1px solid #0f0810;
+        float: right;
+        padding: 20px 0;
+    }
+    .wrapper .overlay-wrapped .head .head_content nav ul {
+        border: 1px solid #2dff1a;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .wrapper .overlay-wrapped .head .head_content nav ul li {
+        height: auto;
+        list-style: none;
+        float: left;
+        margin-left: 15px;
+    }
+
+    .wrapper .overlay-wrapped .head .head_content nav ul li a {
+        height: auto;
+        font-size: 16px;
+        font-family: GOTHICBI;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    /*slider*/
+    .wrapper .overlay-wrapped{
+        width: auto;
+        height: auto;
+        border: 1px solid #3e36ff;
+    }
+    .mistify__slide-title, .mistify__info-title{
+        font-size: 30px;
+    }
+    .wrapper .overlay-wrapped .main-section__links li a .svg-inline--fa{
+        color: white!important;
+    }
+}
+
+@media (min-width: 1200px){
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid red;
+        position: relative;
+    }
+
+    /*fixed menu*/
+
+    .wrapper .header{
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+        border: 1px solid #fa4dff;
+        overflow: hidden;
+        position: fixed;
+        z-index: 99999;
+        background-color: white;
+        display: none;
+    }
+    .wrapper .header .header_content{
+        width: 80%;
+        height: auto;
+        border: 1px solid #44fff8;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .header .header_content .logo{
+        width: 22%;
+        height: auto;
+        border: 1px solid #5dff32;
+        display: inline-block;
+        float: left;
+    }
+    .wrapper .header .header_content .logo img{
+        float: left;
+        margin: 10px auto;
+        width: 25%;
+    }
+    .wrapper .header .header_content .logo .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper .header .header_content .logo .text_logo h1{
+        font-size: 15px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .logo .text_logo h4{
+        font-size: 12px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #0076a3;
+    }
+    .wrapper .header .header_content .svg-inline--fa{
+        float: right;
+        color: #f8941d;
+        font-size: 20px;
+        margin: 15px 0;
+        cursor: pointer;
+        display: none;
+    }
+
+    .wrapper .header .header_content nav{
+        overflow: hidden;
+        border: 1px solid #0f0810;
+        float: right;
+        padding: 20px 0;
+    }
+    .wrapper .header .header_content nav ul {
+        border: 1px solid #2dff1a;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .wrapper .header .header_content nav ul li {
+        height: auto;
+        list-style: none;
+        float: left;
+        margin-left: 6px;
+    }
+    .wrapper .header .header_content nav ul li:hover a{
+        color: #f8941d;
+    }
+    .wrapper .header .header_content nav ul li a {
+        height: auto;
+        font-size: 12px;
+        font-family: GOTHICBI;
+        color: #0076a3;
+        text-decoration: none;
+    }
+
+
+
+    /*menu*/
+    .wrapper .overlay-wrapped{
+        position: relative;
+    }
+    .wrapper .overlay-wrapped .head{
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        border: 1px solid red;
+        position: absolute;
+        z-index: 500;
+        overflow: hidden;
+        display: block;
+    }
+    .wrapper .overlay-wrapped .head .head_content{
+        width: 80%;
+        border: 1px solid #fc5eff;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+        display: block;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo{
+        width:auto;
+        height: auto;
+        border: 1px solid #5dff32;
+        display: inline-block;
+        float: left;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo img{
+        float: left;
+        margin: 10px auto;
+        width: auto;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo{
+        height: 100%;
+        display: inline-block;
+        padding-left: 15px;
+        float: left;
+        width:auto;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo h1{
+        font-size: 40px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: white;
+    }
+    .wrapper .overlay-wrapped .head .head_content .logo .text_logo h4{
+        font-size: 20px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: white;
+    }
+
+    .wrapper .overlay-wrapped .head .head_content nav{
+        overflow: hidden;
+        border: 1px solid #0f0810;
+        float: right;
+        padding: 20px 0;
+    }
+    .wrapper .overlay-wrapped .head .head_content nav ul {
+        border: 1px solid #2dff1a;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .wrapper .overlay-wrapped .head .head_content nav ul li {
+        height: auto;
+        list-style: none;
+        float: left;
+        margin-left: 15px;
+    }
+
+    .wrapper .overlay-wrapped .head .head_content nav ul li a {
+        height: auto;
+        font-size: 16px;
+        font-family: GOTHICBI;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    /*slider*/
+    .wrapper .overlay-wrapped{
+        width: auto;
+        height: auto;
+        border: 1px solid #3e36ff;
+    }
+    .mistify__slide-title, .mistify__info-title{
+        font-size: 30px;
+    }
+    .wrapper .overlay-wrapped .main-section__links li a .svg-inline--fa{
+        color: white!important;
+    }
 }
