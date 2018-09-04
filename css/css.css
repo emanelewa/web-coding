@@ -923,3 +923,518 @@ body{
         color: white!important;
     }
 }
+
+
+
+/*===================================================================================================
+                                   welcome section
+====================================================================================================
+*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .wrapper .welcome{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 50px 0;
+    }
+    .wrapper .welcome .welcome_title{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_title h1{
+        color:#02417b;
+        font-size: 23px;
+        margin-bottom: 0;
+        font-family: Rafale BG;
+    }
+    .wrapper .welcome .welcome_title p{
+        color:#87888b;
+        font-size: 13px;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .wrapper .welcome .welcome_content{
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .wrapper .welcome .welcome_content .all_feature{
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .wrapper .welcome .welcome_content .feature{
+        max-width: 100%;
+        height: 170px;
+        border: 1px solid #fafafa;
+        border-radius: 3px;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 30px 20px;
+    }
+    .wrapper .welcome .welcome_content .feature:hover{
+        box-shadow: 0px 5px 40px rgba(29,34,47,0.15);
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon{
+        height: 55px;
+        display: block;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon img{
+        max-width: 100%;
+    }
+    .wrapper .welcome .welcome_content .feature h3{
+        font-size: 20px;
+        color: #f8941d;
+        font-family: Rafale BG;
+        margin-bottom: 0;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag p{
+        font-family: Century Gothic;
+        font-size: 15px;
+        color: #7f7f7f;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .wrapper .welcome{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 50px 0;
+    }
+    .wrapper .welcome .welcome_title{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_title h1{
+        color:#02417b;
+        font-size: 25px;
+        margin-bottom: 0;
+        font-family: Rafale BG;
+    }
+    .wrapper .welcome .welcome_title p{
+        color:#87888b;
+        font-size: 13px;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .wrapper .welcome .welcome_content{
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .wrapper .welcome .welcome_content .all_feature{
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 20px 10px;
+        overflow: hidden;
+    }
+    .wrapper .welcome .welcome_content .feature{
+        width: 38%;
+        height: 170px;
+        float: left;
+        border: 1px solid #fafafa;
+        border-radius: 3px;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 30px 20px;
+    }
+    .wrapper .welcome .welcome_content .feature:nth-child(even){
+        float: right;
+    }
+    .wrapper .welcome .welcome_content .feature:hover{
+        box-shadow: 0px 3px 20px #eeeeee;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon{
+        height: 55px;
+        display: block;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon img{
+        max-width: 100%;
+    }
+    .wrapper .welcome .welcome_content .feature h3{
+        font-size: 20px;
+        color: #f8941d;
+        font-family: Rafale BG;
+        margin-bottom: 0;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag p{
+        font-family: Century Gothic;
+        font-size: 15px;
+        color: #7f7f7f;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .wrapper .welcome{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 50px 0;
+    }
+    .wrapper .welcome .welcome_title{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_title h1{
+        color:#02417b;
+        font-size: 30px;
+        margin-bottom: 0;
+        font-family: Rafale BG;
+    }
+    .wrapper .welcome .welcome_title p{
+        color:#87888b;
+        font-size: 13px;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .wrapper .welcome .welcome_content{
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .wrapper .welcome .welcome_content .all_feature{
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 20px 10px;
+        overflow: hidden;
+    }
+    .wrapper .welcome .welcome_content .feature{
+        width: 38%;
+        height: 170px;
+        float: left;
+        border: 1px solid #fafafa;
+        border-radius: 3px;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 30px 20px;
+    }
+    .wrapper .welcome .welcome_content .feature:nth-child(even){
+        float: right;
+    }
+    .wrapper .welcome .welcome_content .feature:hover{
+        box-shadow: 0px 3px 20px #eeeeee;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon{
+        height: 55px;
+        display: block;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon img{
+        max-width: 100%;
+    }
+    .wrapper .welcome .welcome_content .feature h3{
+        font-size: 20px;
+        color: #f8941d;
+        font-family: Rafale BG;
+        margin-bottom: 0;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag p{
+        font-family: Century Gothic;
+        font-size: 15px;
+        color: #7f7f7f;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .wrapper .welcome{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 50px 0;
+    }
+    .wrapper .welcome .welcome_title{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_title h1{
+        color:#02417b;
+        font-size: 40px;
+        margin-bottom: 0;
+        font-family: Rafale BG;
+    }
+    .wrapper .welcome .welcome_title p{
+        color:#87888b;
+        font-size: 15px;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .wrapper .welcome .welcome_content{
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .wrapper .welcome .welcome_content .all_feature{
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 20px 10px;
+        overflow: hidden;
+    }
+    .wrapper .welcome .welcome_content .feature{
+        width: 38%;
+        height: 170px;
+        float: left;
+        border: 1px solid #fafafa;
+        border-radius: 3px;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 30px 20px;
+    }
+    .wrapper .welcome .welcome_content .feature:nth-child(even){
+        float: right;
+    }
+    .wrapper .welcome .welcome_content .feature:hover{
+        box-shadow: 0px 3px 20px #eeeeee;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon{
+        height: 55px;
+        display: block;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon img{
+        max-width: 100%;
+    }
+    .wrapper .welcome .welcome_content .feature h3{
+        font-size: 20px;
+        color: #f8941d;
+        font-family: Rafale BG;
+        margin-bottom: 0;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag p{
+        font-family: Century Gothic;
+        font-size: 15px;
+        color: #7f7f7f;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .wrapper .welcome{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 50px 0;
+    }
+    .wrapper .welcome .welcome_title{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_title h1{
+        color:#02417b;
+        font-size: 40px;
+        margin-bottom: 0;
+        font-family: Rafale BG;
+    }
+    .wrapper .welcome .welcome_title p{
+        color:#87888b;
+        font-size: 15px;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .wrapper .welcome .welcome_content{
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .wrapper .welcome .welcome_content .all_feature{
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 20px 10px;
+        overflow: hidden;
+    }
+    .wrapper .welcome .welcome_content .feature{
+        width: 19%;
+        height: 170px;
+        float: left;
+        border: 1px solid #fafafa;
+        border-radius: 3px;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 30px 20px;
+    }
+    .wrapper .welcome .welcome_content .feature:nth-child(2){
+        margin-left: 2%;
+    }
+    .wrapper .welcome .welcome_content .feature:nth-child(3){
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .wrapper .welcome .welcome_content .feature:hover{
+        box-shadow: 0px 3px 20px #eeeeee;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon{
+        height: 55px;
+        display: block;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_icon img{
+        max-width: 100%;
+    }
+    .wrapper .welcome .welcome_content .feature h3{
+        font-size: 20px;
+        color: #f8941d;
+        font-family: Rafale BG;
+        margin-bottom: 0;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .wrapper .welcome .welcome_content .feature .feature_parag p{
+        font-family: Century Gothic;
+        font-size: 15px;
+        color: #7f7f7f;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+/*===================================================================================================
+                                   footer section
+====================================================================================================
+*/
+
+@media (min-width: 320px) and (max-width: 575px){
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid red;
+        position: relative;
+    }
+    .wrapper footer{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #1effff;
+    }
+    .wrapper footer .sign_up{
+        background-color: #2cc4ee;
+        border-bottom: 2px solid white;
+        padding: 10px 0;
+    }
+    .wrapper footer .sign_up .sign_content{
+        width: 80%;
+        height: auto;
+        border: 1px solid #ff9752;
+        margin: 0 auto;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title{
+        max-width: 100%;
+        text-align: center;
+        color: white;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title h1{
+        font-family: GOTHICBI;
+        font-size: 18px;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title p{
+        font-family: Century Gothic;
+        font-size: 13px;
+    }
+    .wrapper footer .sign_up .sign_content form{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 30px;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="email"]{
+        box-sizing: border-box;
+        width: 100%;
+        background:rgba(255, 255, 255, 0.4);
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        color: #ffffff;
+        float: left;
+        flex: 1;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="submit"]{
+        margin-left: -50px;
+        padding: 10px;
+        color: #2cc4ee;
+        border-radius: 3px;
+        background-color: white;
+        font-family: Century Gothic;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+
+}
