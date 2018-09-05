@@ -1373,6 +1373,258 @@ body{
     .wrapper{
         max-width: 100%;
         height: auto;
+        position: relative;
+    }
+    .wrapper footer{
+        max-width: 100%;
+        height: auto;
+    }
+    .wrapper footer .sign_up{
+        background-color: #2cc4ee;
+        border-bottom: 2px solid white;
+        padding: 10px 0;
+    }
+    .wrapper footer .sign_up .sign_content{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title{
+        max-width: 100%;
+        text-align: center;
+        color: white;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title h1{
+        font-family: GOTHICBI;
+        font-size: 18px;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title p{
+        font-family: Century Gothic;
+        font-size: 13px;
+    }
+    .wrapper footer .sign_up .sign_content form{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 30px;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="email"]{
+        box-sizing: border-box;
+        width: 100%;
+        background:rgba(255, 255, 255, 0.4);
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        color: #ffffff;
+        float: left;
+        flex: 1;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="email"]::placeholder{
+        color: white;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="submit"]{
+        margin-left: -50px;
+        padding: 10px;
+        color: #2cc4ee;
+        border-radius: 3px;
+        background-color: white;
+        font-family: Century Gothic;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wrapper footer .contact{
+        background-image:url("../images/footer/bg_footer.png") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        min-height: 390px;
+    }
+    .wrapper footer .contact .contact_content{
+        width: 80%;
+        height: auto;
+        padding: 50px 0;
+        border: 1px solid white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter img{
+        width: auto;
+        float: left;
+        margin: 10px auto;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h1{
+        font-size: 28px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h4{
+        font-size: 15px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter  p{
+        color: #ffffff;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .social .social_media{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+       margin-top: 30px;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social{
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #033e7d;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+        transition: all 1s;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:last-child{
+        float: right;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(2){
+       margin-left: 7%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(3){
+       margin-left: 7%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:hover{
+        background-color: #f8941d;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social .svg-inline--fa{
+        color: #ffffff;
+        font-size: 25px;
+        margin: 25% auto;
+    }
+    .wrapper footer .contact .contact_content .contact_us{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .wrapper footer .contact .contact_content .contact_us h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .contact_us h4{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 15px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .contact_us p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .wrapper footer .contact .contact_content .latest_news h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #1aff09;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h5{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 14px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h6{
+        color: #f8941d;
+        font-family: GOTHICBI;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .wrapper footer .contact .contact_content .footer_contact h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul{
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li{
+       list-style: none;
+        margin-bottom: 7px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a{
+        color: white;
+        font-family: Century Gothic;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a:hover{
+        color: #f8941d;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .wrapper{
+        max-width: 100%;
+        height: auto;
         border: 1px solid red;
         position: relative;
     }
@@ -1423,6 +1675,9 @@ body{
         float: left;
         flex: 1;
     }
+    .wrapper footer .sign_up .sign_content form input[type="email"]::placeholder{
+        color: white;
+    }
     .wrapper footer .sign_up .sign_content form input[type="submit"]{
         margin-left: -50px;
         padding: 10px;
@@ -1435,6 +1690,988 @@ body{
         font-weight: bold;
         cursor: pointer;
     }
+    .wrapper footer .contact{
+        background-image:url("../images/footer/bg_footer.png") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        min-height: 390px;
+    }
+    .wrapper footer .contact .contact_content{
+        width: 80%;
+        height: auto;
+        padding: 50px 0;
+        border: 1px solid white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social{
+        width: 48%;
+        min-height:280px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter{
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter img{
+        width: auto;
+        float: left;
+        margin: 10px auto;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h1{
+        font-size: 28px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h4{
+        font-size: 15px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter  p{
+        color: #ffffff;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .social .social_media{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #eeec13;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social{
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #033e7d;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        transition: all 1s;
+    }
 
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(2){
+        margin-left: 2%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(3){
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:hover{
+        background-color: #f8941d;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social .svg-inline--fa{
+        color: #ffffff;
+        font-size: 25px;
+        margin: 25% auto;
+    }
+    .wrapper footer .contact .contact_content .contact_us{
+        width: 48%;
+        min-height:280px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: right;
+    }
+    .wrapper footer .contact .contact_content .contact_us h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .contact_us h4{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 15px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .contact_us p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news{
+        width: 48%;
+        min-height:360px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: right;
+    }
+    .wrapper footer .contact .contact_content .latest_news h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #1aff09;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h5{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 14px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h6{
+        color: #f8941d;
+        font-family: GOTHICBI;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact{
+        width: 48%;
+        min-height:360px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    .wrapper footer .contact .contact_content .footer_contact h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul{
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li{
+        list-style: none;
+        margin-bottom: 7px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a{
+        color: white;
+        font-family: Century Gothic;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a:hover{
+        color: #f8941d;
+    }
+}
 
+@media (min-width: 768px) and (max-width: 991px){
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid red;
+        position: relative;
+    }
+    .wrapper footer{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #1effff;
+    }
+    .wrapper footer .sign_up{
+        background-color: #2cc4ee;
+        border-bottom: 2px solid white;
+        padding: 10px 0;
+    }
+    .wrapper footer .sign_up .sign_content{
+        width: 80%;
+        height: auto;
+        border: 1px solid #ff9752;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title{
+        width: 47%;
+        text-align: left;
+        color: white;
+        float: left;
+        height: auto;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title h1{
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin: 0;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title p{
+        font-family: Century Gothic;
+        font-size: 15px;
+        margin-top:5px;
+        margin-bottom: 0;
+    }
+    .wrapper footer .sign_up .sign_content form{
+        width: 50%;
+        height: auto;
+        display: flex;
+        float: right;
+        margin-top: 3%;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="email"]{
+        box-sizing: border-box;
+        width: 100%;
+        background:rgba(255, 255, 255, 0.4);
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        color: #ffffff;
+        float: left;
+        flex: 1;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="email"]::placeholder{
+        color: white;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="submit"]{
+        margin-left: -50px;
+        padding: 10px;
+        color: #2cc4ee;
+        border-radius: 3px;
+        background-color: white;
+        font-family: Century Gothic;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wrapper footer .contact{
+        background-image:url("../images/footer/bg_footer.png") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        min-height: 390px;
+    }
+    .wrapper footer .contact .contact_content{
+        width: 80%;
+        height: auto;
+        padding: 50px 0;
+        border: 1px solid white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social{
+        width: 48%;
+        min-height:280px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter{
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter img{
+        width: auto;
+        margin: 10px auto;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h1{
+        font-size: 28px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h4{
+        font-size: 15px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter  p{
+        color: #ffffff;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .social .social_media{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #eeec13;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social{
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #033e7d;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        transition: all 1s;
+    }
+
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(2){
+        margin-left: 2%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(3){
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:hover{
+        background-color: #f8941d;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social .svg-inline--fa{
+        color: #ffffff;
+        font-size: 25px;
+        margin: 25% auto;
+    }
+    .wrapper footer .contact .contact_content .contact_us{
+        width: 48%;
+        min-height:280px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: right;
+    }
+    .wrapper footer .contact .contact_content .contact_us h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .contact_us h4{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 15px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .contact_us p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news{
+        width: 48%;
+        min-height:360px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: right;
+    }
+    .wrapper footer .contact .contact_content .latest_news h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #1aff09;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h5{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 14px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h6{
+        color: #f8941d;
+        font-family: GOTHICBI;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact{
+        width: 48%;
+        min-height:360px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    .wrapper footer .contact .contact_content .footer_contact h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul{
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li{
+        list-style: none;
+        margin-bottom: 7px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a{
+        color: white;
+        font-family: Century Gothic;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a:hover{
+        color: #f8941d;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid red;
+        position: relative;
+    }
+    .wrapper footer{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #1effff;
+    }
+    .wrapper footer .sign_up{
+        background-color: #2cc4ee;
+        border-bottom: 2px solid white;
+        padding: 10px 0;
+    }
+    .wrapper footer .sign_up .sign_content{
+        width: 80%;
+        height: auto;
+        border: 1px solid #ff9752;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title{
+        width: 47%;
+        text-align: left;
+        color: white;
+        float: left;
+        height: auto;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title h1{
+        font-family: GOTHICBI;
+        font-size: 20px;
+        margin: 0;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title p{
+        font-family: Century Gothic;
+        font-size: 15px;
+        margin-top:5px;
+        margin-bottom: 0;
+    }
+    .wrapper footer .sign_up .sign_content form{
+        width: 40%;
+        height: auto;
+        display: flex;
+        float: right;
+        margin-top: 2%;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="email"]{
+        box-sizing: border-box;
+        width: 100%;
+        background:rgba(255, 255, 255, 0.4);
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        color: #ffffff;
+        float: left;
+        flex: 1;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="email"]::placeholder{
+        color: white;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="submit"]{
+        margin-left: -50px;
+        padding: 10px;
+        color: #2cc4ee;
+        border-radius: 3px;
+        background-color: white;
+        font-family: Century Gothic;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wrapper footer .contact{
+        background-image:url("../images/footer/bg_footer.png") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        min-height: 390px;
+    }
+    .wrapper footer .contact .contact_content{
+        width: 80%;
+        height: auto;
+        padding: 50px 0;
+        border: 1px solid white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social{
+        width: 48%;
+        min-height:280px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter{
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter img{
+        width: auto;
+        margin: 10px auto;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h1{
+        font-size: 28px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h4{
+        font-size: 15px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter  p{
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .social .social_media{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #eeec13;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social{
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #033e7d;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        transition: all 1s;
+    }
+
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(2){
+        margin-left: 2%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(3){
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:hover{
+        background-color: #f8941d;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social .svg-inline--fa{
+        color: #ffffff;
+        font-size: 25px;
+        margin: 25% auto;
+    }
+    .wrapper footer .contact .contact_content .contact_us{
+        width: 48%;
+        min-height:280px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: right;
+    }
+    .wrapper footer .contact .contact_content .contact_us h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .wrapper footer .contact .contact_content .contact_us h4{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .contact_us p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news{
+        width: 48%;
+        min-height:360px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: right;
+    }
+    .wrapper footer .contact .contact_content .latest_news h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #1aff09;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h5{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 14px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h6{
+        color: #f8941d;
+        font-family: GOTHICBI;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact{
+        width: 48%;
+        min-height:360px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    .wrapper footer .contact .contact_content .footer_contact h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul{
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li{
+        list-style: none;
+        margin-bottom: 7px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a{
+        color: white;
+        font-family: Century Gothic;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a:hover{
+        color: #f8941d;
+    }
+}
+
+@media (min-width: 1200px){
+    .wrapper{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid red;
+        position: relative;
+    }
+    .wrapper footer{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #1effff;
+    }
+    .wrapper footer .sign_up{
+        background-color: #2cc4ee;
+        border-bottom: 2px solid white;
+        padding: 10px 0;
+    }
+    .wrapper footer .sign_up .sign_content{
+        width: 80%;
+        height: auto;
+        border: 1px solid #ff9752;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title{
+        width: 47%;
+        text-align: left;
+        color: white;
+        float: left;
+        height: auto;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title h1{
+        font-family: GOTHICBI;
+        font-size: 23px;
+        margin: 0;
+    }
+    .wrapper footer .sign_up .sign_content .sign_title p{
+        font-family: Century Gothic;
+        font-size: 15px;
+        margin-top:5px;
+        margin-bottom: 0;
+    }
+    .wrapper footer .sign_up .sign_content form{
+        width: 40%;
+        height: auto;
+        display: flex;
+        float: right;
+        margin-top: 1%;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="email"]{
+        box-sizing: border-box;
+        width: 100%;
+        background:rgba(255, 255, 255, 0.4);
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        color: #ffffff;
+        float: left;
+        flex: 1;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="email"]::placeholder{
+        color: white;
+    }
+    .wrapper footer .sign_up .sign_content form input[type="submit"]{
+        margin-left: -50px;
+        padding: 10px;
+        color: #2cc4ee;
+        border-radius: 3px;
+        background-color: white;
+        font-family: Century Gothic;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wrapper footer .contact{
+        background-image:url("../images/footer/bg_footer.png") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        min-height: 390px;
+    }
+    .wrapper footer .contact .contact_content{
+        width: 80%;
+        height: auto;
+        padding: 50px 0;
+        border: 1px solid white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social{
+        width: 24%;
+        min-height:280px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter{
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+        overflow: hidden;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter img{
+        width: auto;
+        margin: 10px auto;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo{
+        width: auto;
+        height: 100%;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h1{
+        font-size: 28px;
+        margin: 0;
+        font-family: GOTHICBI;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter .text_logo h4{
+        font-size: 15px;
+        margin-top: 0;
+        font-family: Rafale BG;
+        color: #ffffff;
+    }
+    .wrapper footer .contact .contact_content .social .logo_fotter  p{
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .social .social_media{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #eeec13;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social{
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #033e7d;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        transition: all 1s;
+    }
+
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(2){
+        margin-left: 2%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:nth-child(3){
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social:hover{
+        background-color: #f8941d;
+    }
+    .wrapper footer .contact .contact_content .social .social_media .icon_social .svg-inline--fa{
+        color: #ffffff;
+        font-size: 25px;
+        margin: 25% auto;
+    }
+    .wrapper footer .contact .contact_content .contact_us{
+        width: 24%;
+        min-height:280px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+        padding: 0 15px;
+    }
+    .wrapper footer .contact .contact_content .contact_us h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .wrapper footer .contact .contact_content .contact_us h4{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 15px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .contact_us p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news{
+        width: 24%;
+        min-height:360px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    .wrapper footer .contact .contact_content .latest_news h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #1aff09;
+        overflow: hidden;
+        text-align: center;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h5{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 13px;
+        margin: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address p{
+        color: white;
+        font-family: Century Gothic;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .wrapper footer .contact .contact_content .latest_news .address h6{
+        color: #f8941d;
+        font-family: GOTHICBI;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact{
+        width: 24%;
+        min-height:360px;
+        border: 1px solid #ff66fa;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    .wrapper footer .contact .contact_content .footer_contact h2{
+        color: white;
+        font-family: GOTHICBI;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul{
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a{
+        color: white;
+        font-family: Century Gothic;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .wrapper footer .contact .contact_content .footer_contact ul li a:hover{
+        color: #f8941d;
+    }
 }
