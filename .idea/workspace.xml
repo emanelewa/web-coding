@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/javascript/js.js" afterPath="$PROJECT_DIR$/javascript/js.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,63 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="219" column="43" lean-forward="false" selection-start-line="219" selection-start-column="36" selection-end-line="219" selection-end-column="43" />
-              <folding>
-                <element signature="n#div#0;n#section#0;n#section#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#section#0;n#section#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#section#0;n#section#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/css.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="1494" column="0" lean-forward="false" selection-start-line="1494" selection-start-column="0" selection-end-line="1494" selection-end-column="0" />
-              <folding>
-                <element signature="e#587#3668#0" expanded="false" />
-                <element signature="e#3670#8384#0" expanded="false" />
-                <element signature="e#3888#4128#0" expanded="false" />
-                <element signature="e#4165#4299#0" expanded="false" />
-                <element signature="e#4342#4478#0" expanded="false" />
-                <element signature="e#4525#4600#0" expanded="false" />
-                <element signature="e#4654#4763#0" expanded="false" />
-                <element signature="e#4820#4926#0" expanded="false" />
-                <element signature="e#4983#5094#0" expanded="false" />
-                <element signature="e#5147#5297#0" expanded="false" />
-                <element signature="e#5339#5454#0" expanded="false" />
-                <element signature="e#5499#5606#0" expanded="false" />
-                <element signature="e#5654#5756#0" expanded="false" />
-                <element signature="e#5811#5842#0" expanded="false" />
-                <element signature="e#5892#6032#0" expanded="false" />
-                <element signature="e#6619#6755#0" expanded="false" />
-                <element signature="e#7494#7609#0" expanded="false" />
-                <element signature="e#7667#7774#0" expanded="false" />
-                <element signature="e#8386#13179#0" expanded="false" />
-                <element signature="e#13181#17977#0" expanded="false" />
-                <element signature="e#17979#22752#0" expanded="false" />
-                <element signature="e#23014#25121#0" expanded="false" />
-                <element signature="e#25123#27356#0" expanded="false" />
-                <element signature="e#27358#29591#0" expanded="false" />
-                <element signature="e#29593#31827#0" expanded="false" />
-                <element signature="e#31829#34160#0" expanded="false" />
-                <element signature="e#41823#49376#0" expanded="false" />
-                <element signature="e#49378#57056#0" expanded="false" />
-                <element signature="e#57058#64740#0" expanded="false" />
-                <element signature="e#64742#72431#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,6 +38,14 @@
       <find>mistify__info-more span</find>
       <find>mistify__info-more</find>
       <find>mehr</find>
+      <find>Statistics</find>
+      <find>.wrapper footer .contact .contact_content .social .logo_fotter img</find>
+      <find>.wrapper .welcome .welcome_content .feature</find>
+      <find>.wrapper .languages #jcl-demo .custom-container .carousel</find>
+      <find>.gallery-item .thumbnail &gt; img</find>
+      <find>.gallery-expander-contents div.contents</find>
+      <find>.wrapper footer .contact .contact_content</find>
+      <find>header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,24 +54,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java script/js.js" />
         <option value="$USER_HOME$/Desktop/Carousel-Plugin-jQuery-mistCarousel/index.html" />
         <option value="$PROJECT_DIR$/css/vendors/project.css" />
         <option value="$PROJECT_DIR$/javascript/vendors/mistCarousel.js" />
         <option value="$PROJECT_DIR$/javascript/vendors/main.js" />
         <option value="$PROJECT_DIR$/css/vendors/mistCarousel.css" />
-        <option value="$PROJECT_DIR$/javascript/js.js" />
         <option value="$PROJECT_DIR$/../j query training/Get  Set Elements And Attributes/index.html" />
         <option value="$PROJECT_DIR$/../j query training/Get  Set Elements And Attributes/js.js" />
         <option value="$PROJECT_DIR$/../j query training/Get  Set value/index.html" />
-        <option value="$PROJECT_DIR$/../j query training/Get  Set value/js.js" />
-        <option value="$PROJECT_DIR$/../j query training/Get attr/js.js" />
         <option value="$PROJECT_DIR$/../j query training/Get attr/index.html" />
         <option value="$PROJECT_DIR$/../j query training/Html - Append  AppendTo  Prepend  PrependTo/index.html" />
-        <option value="$PROJECT_DIR$/../j query training/Html - Append  AppendTo  Prepend  PrependTo/js.js" />
         <option value="$PROJECT_DIR$/../j query training/remove/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/add class/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/add class/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Css Get  Set/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Css Get  Set/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Css set/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Css set/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/[ Dimension ] = width, innerWidth/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/[ Dimension ] = width, innerWidth/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Traversing  Ancestor ( parent , parents , parentsUntil )/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Traversing  Ancestor ( parent , parents , parentsUntil )/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Traversing  Ancestor parent closest/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Traversing  Ancestor parent closest/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Descendant ( Children , Find )/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Descendant ( Children , Find )/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Siblings ( siblings )/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Siblings ( siblings )/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Siblings ( next , nextAll , nextUntil )/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Siblings ( prev , prevAll , prevUntil )/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Siblings ( next , nextAll , nextUntil )/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Siblings ( prev , prevAll , prevUntil )/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Filtering ( first , last )/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Filtering ( first , last )/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Filtering ( Has , not , is )/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Filtering ( filter , eq )/index.html" />
+        <option value="$PROJECT_DIR$/../j query training/Filtering ( filter , eq )/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Traversing Slice , Contents/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/animate -ex/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/animate/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Get  Set value/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Get attr/js.js" />
+        <option value="$PROJECT_DIR$/../j query training/Html - Append  AppendTo  Prepend  PrependTo/js.js" />
         <option value="$PROJECT_DIR$/../j query training/remove/js.js" />
+        <option value="$USER_HOME$/Desktop/jcarousellite-master/demo/style/style-demo.css" />
+        <option value="$USER_HOME$/Desktop/jcarousellite-master/demo/demo-17.html" />
+        <option value="$PROJECT_DIR$/javascript/vendors/jquery.jcarousellite.js" />
+        <option value="$USER_HOME$/Desktop/Thumbnail-Grid-with-Expanding-Image-Preview-Using-jQuery/example.html" />
+        <option value="$PROJECT_DIR$/css/vendors/example.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/javascript/js.js" />
         <option value="$PROJECT_DIR$/css/css.css" />
       </list>
     </option>
@@ -150,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,7 +181,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,16 +223,20 @@
       <workItem from="1535918600534" duration="150000" />
       <workItem from="1536070318655" duration="11591000" />
       <workItem from="1536140343147" duration="22267000" />
+      <workItem from="1536239983360" duration="17123000" />
+      <workItem from="1536308169430" duration="13219000" />
+      <workItem from="1536394788639" duration="7294000" />
+      <workItem from="1536475706444" duration="37210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60919000" />
+    <option name="totallyTimeSpent" value="135765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.013392857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09151786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -277,293 +266,161 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../j query training/Descendant ( Children , Find )/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3696">
-          <caret line="168" column="22" lean-forward="false" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
-          <folding>
-            <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
+    <entry file="file://$PROJECT_DIR$/../j query training/Siblings ( siblings )/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30998">
-          <caret line="1409" column="21" lean-forward="true" selection-start-line="1409" selection-start-column="21" selection-end-line="1409" selection-end-column="21" />
-          <folding>
-            <element signature="e#587#3668#0" expanded="false" />
-            <element signature="e#3670#8384#0" expanded="false" />
-            <element signature="e#3888#4128#0" expanded="false" />
-            <element signature="e#4165#4299#0" expanded="false" />
-            <element signature="e#4342#4478#0" expanded="false" />
-            <element signature="e#4525#4600#0" expanded="false" />
-            <element signature="e#4654#4763#0" expanded="false" />
-            <element signature="e#4820#4926#0" expanded="false" />
-            <element signature="e#4983#5094#0" expanded="false" />
-            <element signature="e#5147#5297#0" expanded="false" />
-            <element signature="e#5339#5454#0" expanded="false" />
-            <element signature="e#5499#5606#0" expanded="false" />
-            <element signature="e#5654#5756#0" expanded="false" />
-            <element signature="e#5811#5842#0" expanded="false" />
-            <element signature="e#5892#6032#0" expanded="false" />
-            <element signature="e#6619#6755#0" expanded="false" />
-            <element signature="e#7494#7609#0" expanded="false" />
-            <element signature="e#7667#7774#0" expanded="false" />
-            <element signature="e#8386#13179#0" expanded="false" />
-            <element signature="e#13181#17977#0" expanded="false" />
-            <element signature="e#17979#22752#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../j query training/Siblings ( siblings )/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="68" column="47" lean-forward="false" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
-          <folding>
-            <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
+    <entry file="file://$PROJECT_DIR$/../j query training/Traversing  Ancestor ( parent , parents , parentsUntil )/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3652">
-          <caret line="864" column="67" lean-forward="false" selection-start-line="864" selection-start-column="67" selection-end-line="864" selection-end-column="67" />
-          <folding>
-            <element signature="e#587#3668#0" expanded="false" />
-            <element signature="e#3670#8384#0" expanded="false" />
-            <element signature="e#3888#4128#0" expanded="false" />
-            <element signature="e#4165#4299#0" expanded="false" />
-            <element signature="e#4342#4478#0" expanded="false" />
-            <element signature="e#4525#4600#0" expanded="false" />
-            <element signature="e#4654#4763#0" expanded="false" />
-            <element signature="e#4820#4926#0" expanded="false" />
-            <element signature="e#4983#5094#0" expanded="false" />
-            <element signature="e#5147#5297#0" expanded="false" />
-            <element signature="e#5339#5454#0" expanded="false" />
-            <element signature="e#5499#5606#0" expanded="false" />
-            <element signature="e#5654#5756#0" expanded="false" />
-            <element signature="e#5811#5842#0" expanded="false" />
-            <element signature="e#5892#6032#0" expanded="false" />
-            <element signature="e#6619#6755#0" expanded="false" />
-            <element signature="e#7494#7609#0" expanded="false" />
-            <element signature="e#7667#7774#0" expanded="false" />
-            <element signature="e#8386#13179#0" expanded="false" />
-            <element signature="e#13181#17977#0" expanded="false" />
-            <element signature="e#17979#22752#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="262">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../j query training/Traversing  Ancestor ( parent , parents , parentsUntil )/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="68" column="47" lean-forward="false" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
-          <folding>
-            <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
+    <entry file="file://$PROJECT_DIR$/../j query training/Siblings ( next , nextAll , nextUntil )/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19008">
-          <caret line="864" column="67" lean-forward="true" selection-start-line="864" selection-start-column="67" selection-end-line="864" selection-end-column="67" />
-          <folding>
-            <element signature="e#587#3668#0" expanded="false" />
-            <element signature="e#3670#8384#0" expanded="false" />
-            <element signature="e#3888#4128#0" expanded="false" />
-            <element signature="e#4165#4299#0" expanded="false" />
-            <element signature="e#4342#4478#0" expanded="false" />
-            <element signature="e#4525#4600#0" expanded="false" />
-            <element signature="e#4654#4763#0" expanded="false" />
-            <element signature="e#4820#4926#0" expanded="false" />
-            <element signature="e#4983#5094#0" expanded="false" />
-            <element signature="e#5147#5297#0" expanded="false" />
-            <element signature="e#5339#5454#0" expanded="false" />
-            <element signature="e#5499#5606#0" expanded="false" />
-            <element signature="e#5654#5756#0" expanded="false" />
-            <element signature="e#5811#5842#0" expanded="false" />
-            <element signature="e#5892#6032#0" expanded="false" />
-            <element signature="e#6619#6755#0" expanded="false" />
-            <element signature="e#7494#7609#0" expanded="false" />
-            <element signature="e#7667#7774#0" expanded="false" />
-            <element signature="e#8386#13179#0" expanded="false" />
-            <element signature="e#13181#17977#0" expanded="false" />
-            <element signature="e#17979#22752#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../j query training/Siblings ( next , nextAll , nextUntil )/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" column="118" lean-forward="false" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../amber code26/coding/style/css.css">
+    <entry file="file://$PROJECT_DIR$/../j query training/Siblings ( prev , prevAll , prevUntil )/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
+    <entry file="file://$PROJECT_DIR$/../j query training/Siblings ( prev , prevAll , prevUntil )/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
-          <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
-          <folding>
-            <element signature="e#587#3668#0" expanded="false" />
-            <element signature="e#3670#8384#0" expanded="false" />
-            <element signature="e#3888#4128#0" expanded="false" />
-            <element signature="e#4165#4299#0" expanded="false" />
-            <element signature="e#4342#4478#0" expanded="false" />
-            <element signature="e#4525#4600#0" expanded="false" />
-            <element signature="e#4654#4763#0" expanded="false" />
-            <element signature="e#4820#4926#0" expanded="false" />
-            <element signature="e#4983#5094#0" expanded="false" />
-            <element signature="e#5147#5297#0" expanded="false" />
-            <element signature="e#5339#5454#0" expanded="false" />
-            <element signature="e#5499#5606#0" expanded="false" />
-            <element signature="e#5654#5756#0" expanded="false" />
-            <element signature="e#5811#5842#0" expanded="false" />
-            <element signature="e#5892#6032#0" expanded="false" />
-            <element signature="e#6619#6755#0" expanded="false" />
-            <element signature="e#7494#7609#0" expanded="false" />
-            <element signature="e#7667#7774#0" expanded="false" />
-            <element signature="e#8386#13179#0" expanded="false" />
-            <element signature="e#13181#17977#0" expanded="false" />
-            <element signature="e#17979#22752#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../j query training/Filtering ( first , last )/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Filtering ( first , last )/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Filtering ( Has , not , is )/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Filtering ( Has , not , is )/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Filtering ( filter , eq )/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Filtering ( filter , eq )/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Descendant ( Children , Find )/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Traversing Slice , Contents/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Traversing Slice , Contents/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/hover/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/events/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/events/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Bhagaskara 23/coding/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../amber code26/coding/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java script/js.js" />
-    <entry file="file://$PROJECT_DIR$/../Bhagaskara 23/coding/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Carousel-Plugin-jQuery-mistCarousel/css/mistCarousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Carousel-Plugin-jQuery-mistCarousel/css/project.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Carousel-Plugin-jQuery-mistCarousel/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Carousel-Plugin-jQuery-mistCarousel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/vendors/project.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="555" column="25" lean-forward="false" selection-start-line="555" selection-start-column="25" selection-end-line="555" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/vendors/mistCarousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="155" column="18" lean-forward="false" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/vendors/mistCarousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="194" column="17" lean-forward="true" selection-start-line="194" selection-start-column="17" selection-end-line="194" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/vendors/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../amber code26/coding/style/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../amber code26/coding/javascript/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1761">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../j query training/animate -ex/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/animate/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -572,8 +429,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../j query training/animate/js.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Get  Set text and html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Get  Set value/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Get  Set text and html/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Get attr/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Get attr/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Html - Append  AppendTo  Prepend  PrependTo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../j query training/Html - Append  AppendTo  Prepend  PrependTo/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -584,143 +490,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../j query training/Get  Set Elements And Attributes/index.html">
+    <entry file="file://$PROJECT_DIR$/../j query training/remove/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../j query training/Get  Set Elements And Attributes/js.js">
+    <entry file="file://$PROJECT_DIR$/../j query training/add class/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../j query training/Get  Set value/js.js">
+    <entry file="file://$PROJECT_DIR$/../j query training/[ Dimension ] = width, innerWidth/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../j query training/Get  Set value/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../j query training/Get attr/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../j query training/Get attr/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../j query training/Html - Append  AppendTo  Prepend  PrependTo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../j query training/Html - Append  AppendTo  Prepend  PrependTo/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="66">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../j query training/remove/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Bhagaskara 23/coding/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="487" column="67" lean-forward="true" selection-start-line="486" selection-start-column="4" selection-end-line="487" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Bhagaskara 23/coding/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template-ModalLoginRegForm/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2036">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../j query training/remove/index.html">
+    <entry file="file://$PROJECT_DIR$/javascript/vendors/jquery.jcarousellite.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../amber code26/coding/index.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="755" column="30" lean-forward="true" selection-start-line="716" selection-start-column="20" selection-end-line="755" selection-end-column="30" />
+        <state relative-caret-position="436">
+          <caret line="251" column="4" lean-forward="true" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jcarousellite-master/demo/style/style-demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jcarousellite-master/demo/demo-17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/vendors/jquery.jcarousellite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5571">
+          <caret line="259" column="0" lean-forward="true" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
           <folding>
-            <element signature="n#article#1;n#section#0;n#section#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/vendors/jquery.mousewheel-3.1.12.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jQuery-Plugin-For-Responsive-Portfolio-Gallery-WM-Gridfolio/exemplo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/vendors/example.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Thumbnail-Grid-with-Expanding-Image-Preview-Using-jQuery/example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="218" column="5" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="218" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#4;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#6;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#7;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="716" column="25" lean-forward="true" selection-start-line="716" selection-start-column="25" selection-end-line="716" selection-end-column="25" />
+          <folding>
+            <element signature="e#618#3510#0" expanded="false" />
+            <element signature="e#3512#7923#0" expanded="false" />
+            <element signature="e#4025#4124#0" expanded="false" />
+            <element signature="e#4167#4268#0" expanded="false" />
+            <element signature="e#4315#4390#0" expanded="false" />
+            <element signature="e#4444#4553#0" expanded="false" />
+            <element signature="e#7925#12415#0" expanded="false" />
+            <element signature="e#8437#8536#0" expanded="false" />
+            <element signature="e#8579#8680#0" expanded="false" />
+            <element signature="e#8727#8802#0" expanded="false" />
+            <element signature="e#8856#8965#0" expanded="false" />
+            <element signature="e#9022#9154#0" expanded="false" />
+            <element signature="e#9375#9525#0" expanded="false" />
+            <element signature="e#12417#16912#0" expanded="false" />
+            <element signature="e#12604#12892#0" expanded="false" />
+            <element signature="e#12929#13028#0" expanded="false" />
+            <element signature="e#13071#13172#0" expanded="false" />
+            <element signature="e#13219#13294#0" expanded="false" />
+            <element signature="e#13348#13457#0" expanded="false" />
+            <element signature="e#13514#13647#0" expanded="false" />
+            <element signature="e#13704#13815#0" expanded="false" />
+            <element signature="e#13868#14018#0" expanded="false" />
+            <element signature="e#17404#17503#0" expanded="false" />
+            <element signature="e#17546#17647#0" expanded="false" />
+            <element signature="e#17694#17769#0" expanded="false" />
+            <element signature="e#17823#17932#0" expanded="false" />
+            <element signature="e#18343#18493#0" expanded="false" />
+            <element signature="e#21647#23753#0" expanded="false" />
+            <element signature="e#23755#25987#0" expanded="false" />
+            <element signature="e#33064#38511#0" expanded="false" />
+            <element signature="e#38513#44110#0" expanded="false" />
+            <element signature="e#44112#49709#0" expanded="false" />
+            <element signature="e#49711#55308#0" expanded="false" />
+            <element signature="e#55310#60885#0" expanded="false" />
+            <element signature="e#84029#87364#0" expanded="false" />
+            <element signature="e#87366#91217#0" expanded="false" />
+            <element signature="e#91219#95079#0" expanded="false" />
+            <element signature="e#95343#102542#0" expanded="false" />
+            <element signature="e#102544#109748#0" expanded="false" />
+            <element signature="e#109750#117075#0" expanded="false" />
+            <element signature="e#124407#131743#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="219" column="43" lean-forward="false" selection-start-line="219" selection-start-column="36" selection-end-line="219" selection-end-column="43" />
+        <state relative-caret-position="143">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="30" />
           <folding>
-            <element signature="n#div#0;n#section#0;n#section#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#section#0;n#section#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#0;n#section#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="1494" column="0" lean-forward="false" selection-start-line="1494" selection-start-column="0" selection-end-line="1494" selection-end-column="0" />
-          <folding>
-            <element signature="e#587#3668#0" expanded="false" />
-            <element signature="e#3670#8384#0" expanded="false" />
-            <element signature="e#3888#4128#0" expanded="false" />
-            <element signature="e#4165#4299#0" expanded="false" />
-            <element signature="e#4342#4478#0" expanded="false" />
-            <element signature="e#4525#4600#0" expanded="false" />
-            <element signature="e#4654#4763#0" expanded="false" />
-            <element signature="e#4820#4926#0" expanded="false" />
-            <element signature="e#4983#5094#0" expanded="false" />
-            <element signature="e#5147#5297#0" expanded="false" />
-            <element signature="e#5339#5454#0" expanded="false" />
-            <element signature="e#5499#5606#0" expanded="false" />
-            <element signature="e#5654#5756#0" expanded="false" />
-            <element signature="e#5811#5842#0" expanded="false" />
-            <element signature="e#5892#6032#0" expanded="false" />
-            <element signature="e#6619#6755#0" expanded="false" />
-            <element signature="e#7494#7609#0" expanded="false" />
-            <element signature="e#7667#7774#0" expanded="false" />
-            <element signature="e#8386#13179#0" expanded="false" />
-            <element signature="e#13181#17977#0" expanded="false" />
-            <element signature="e#17979#22752#0" expanded="false" />
-            <element signature="e#23014#25121#0" expanded="false" />
-            <element signature="e#25123#27356#0" expanded="false" />
-            <element signature="e#27358#29591#0" expanded="false" />
-            <element signature="e#29593#31827#0" expanded="false" />
-            <element signature="e#31829#34160#0" expanded="false" />
-            <element signature="e#41823#49376#0" expanded="false" />
-            <element signature="e#49378#57056#0" expanded="false" />
-            <element signature="e#57058#64740#0" expanded="false" />
-            <element signature="e#64742#72431#0" expanded="false" />
+            <element signature="n#section#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
