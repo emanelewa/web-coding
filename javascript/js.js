@@ -1,5 +1,25 @@
-/*fixed menu*/
+/*focus window*/
+$(document).ready(function () {
 
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+
+
+});
+
+
+
+// change li a color
+$(document).ready(function () {
+    $("#menu a").click(function () {
+        $("#menu a").css("color", "#0076a3");
+        $(this).css("color", "#f8941d");
+    })
+});
+
+
+
+
+/*fixed menu*/
 var myMenu = document.getElementById("menu");
 function down() {
     if(myMenu.style.display === "none"){
@@ -18,12 +38,9 @@ function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("navbar").style.top = "0";
     } else {
-        document.getElementById("navbar").style.top = "-110px";
+        document.getElementById("navbar").style.top = "-200px";
     }
 }
-
-
-
 
 
 
@@ -87,5 +104,21 @@ $(function() {
     $('.gallery-items').imagelistexpander({
         prefix: "gallery-"
     });
-})(this, jQuery)
+})(this, jQuery);
+
+
+
+/*navbar*/
+$(document).ready(function () {
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+            $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function() {
+            window.location.hash = target;
+        });
+    });
+});
 

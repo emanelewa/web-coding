@@ -21,6 +21,7 @@ body{
 * { box-sizing: border-box; }
 
 
+
 /*===================================================================================================
                                    header and slider section
 ====================================================================================================
@@ -61,27 +62,28 @@ body{
 
     }
     .wrapper .header .header_content .logo img{
-        width: auto;
         float: left;
-        margin: 10px auto;
+        width: 22%;
+        margin-top: 10px;
     }
     .wrapper .header .header_content .logo .text_logo{
         width: auto;
         height: 100%;
         display: inline-block;
-        padding-left: 10px;
     }
     .wrapper .header .header_content .logo .text_logo h1{
-        font-size: 28px;
+        font-size: 22px;
         margin: 0;
         font-family: GOTHICBI;
         color: #02417b;
     }
     .wrapper .header .header_content .logo .text_logo h4{
-        font-size: 15px;
+        font-size: 14px;
         margin-top: 0;
         font-family: Rafale BG;
         color: #0076a3;
+        margin-bottom: 0;
+        float: left;
     }
     .wrapper .header .header_content .svg-inline--fa{
         float: right;
@@ -111,19 +113,16 @@ body{
         padding: 5px 0;
         border-bottom: 1px solid #00aeef;
     }
-    .wrapper .header .header_content nav ul li:hover{
-        background-color: #f8941d;
+    .wrapper .header .header_content nav ul li:last-child {
+        border-bottom:none;
     }
 
-    .wrapper .header .header_content nav ul li:hover a{
-        color: white;
-    }
     .wrapper .header .header_content nav ul li a {
         width: 100%;
         height: auto;
-        font-size: 15px;
+        font-size: 12px;
         font-family: GOTHICBI;
-        color: #02417b;
+        color: #0076a3;
         text-decoration: none;
     }
 
@@ -205,6 +204,7 @@ body{
         margin-top: 0;
         font-family: Rafale BG;
         color: #0076a3;
+        margin-bottom: 0;
     }
     .wrapper .header .header_content .svg-inline--fa{
         float: right;
@@ -236,7 +236,7 @@ body{
     }
     .wrapper .header .header_content nav ul li a {
         height: auto;
-        font-size: 12px;
+        font-size: 11px;
         font-family: GOTHICBI;
         color: #02417b;
         text-decoration: none;
@@ -313,7 +313,7 @@ body{
 
     .wrapper .overlay-wrapped .head .head_content nav ul li a {
         height: auto;
-        font-size: 12px;
+        font-size: 11px;
         font-family: GOTHICBI;
         color: white;
         text-decoration: none;
@@ -376,7 +376,7 @@ body{
         padding-left: 10px;
     }
     .wrapper .header .header_content .logo .text_logo h1{
-        font-size: 24px;
+        font-size: 18px;
         margin: 0;
         font-family: GOTHICBI;
         color: #02417b;
@@ -387,6 +387,7 @@ body{
         margin-top: 0;
         font-family: Rafale BG;
         color: #0076a3;
+        margin-bottom: 0;
     }
     .wrapper .header .header_content .svg-inline--fa{
         float: right;
@@ -418,9 +419,9 @@ body{
     }
     .wrapper .header .header_content nav ul li a {
         height: auto;
-        font-size: 15px;
+        font-size: 12px;
         font-family: GOTHICBI;
-        color: #02417b;
+        color: #0076a3;
         text-decoration: none;
     }
 
@@ -572,6 +573,7 @@ body{
         margin-top: 0;
         font-family: Rafale BG;
         color: #0076a3;
+        margin-bottom: 0;
     }
     .wrapper .header .header_content .svg-inline--fa{
         float: right;
@@ -603,9 +605,9 @@ body{
     }
     .wrapper .header .header_content nav ul li a {
         height: auto;
-        font-size: 16px;
+        font-size: 14px;
         font-family: GOTHICBI;
-        color: #02417b;
+        color: #0076a3;
         text-decoration: none;
     }
 
@@ -737,8 +739,9 @@ body{
     }
     .wrapper .header .header_content .logo img{
         float: left;
-        margin: 10px auto;
-        width: 25%;
+        margin: 16px auto;
+        width: 18%;
+        margin-bottom: 0;
     }
     .wrapper .header .header_content .logo .text_logo{
         width: auto;
@@ -747,17 +750,20 @@ body{
         padding-left: 10px;
     }
     .wrapper .header .header_content .logo .text_logo h1{
-        font-size: 29px;
+        font-size: 23px;
         margin: 0;
         font-family: GOTHICBI;
-        color: #02417b;;
+        color: #02417b;
         margin-top: 10px;
+        height: 20px;
+        margin-bottom: 5px;
     }
     .wrapper .header .header_content .logo .text_logo h4{
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 0;
         font-family: Rafale BG;
         color: #0076a3;
+        height: 3px;
     }
     .wrapper .header .header_content .svg-inline--fa{
         float: right;
@@ -783,18 +789,14 @@ body{
         float: left;
         margin-left: 20px;
     }
-    .wrapper .header .header_content nav ul li:hover a{
-        color: #f8941d;
-    }
+
     .wrapper .header .header_content nav ul li a {
         height: auto;
-        font-size: 16px;
+        font-size: 15px;
         font-family: GOTHICBI;
         color: #0076a3;
         text-decoration: none;
     }
-
-
 
     /*menu*/
     .wrapper .overlay-wrapped{
@@ -902,7 +904,7 @@ body{
         max-width: 100%;
         height: auto;
         overflow: hidden;
-        padding: 50px 0;
+        padding: 222px 0 50px 0;;
     }
     .wrapper .welcome .welcome_title{
         max-width: 100%;
@@ -1342,7 +1344,7 @@ body{
     max-width: 100%;
     height: auto;
     overflow: hidden;
-    padding: 50px 0;
+    padding: 220px 0 50px 0;
 }
 .wrapper .students .students_content{
     width: 80%;
@@ -2524,7 +2526,7 @@ body{
         max-width: 100%;
         height: auto;
         overflow: hidden;
-        padding: 50px 0;
+        padding: 50px 0 50px 0;
         background-image: url("../images/register/resi_bg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -2679,6 +2681,7 @@ body{
         display: block;
         width: 280px;
         padding: .4em;
+        border: 1px solid #8d8d8d;
     }
     input:focus, textarea:focus, select:focus{
         border: 1px solid #f8941d ;
@@ -2889,6 +2892,7 @@ body{
         display: block;
         width: 280px;
         padding: .4em;
+        border: 1px solid #8d8d8d
     }
     input:focus, textarea:focus, select:focus{
         border: 1px solid #f8941d ;
@@ -3110,6 +3114,7 @@ body{
         display: block;
         width: 280px;
         padding: .4em;
+        border: 1px solid #8d8d8d
     }
     input:focus, textarea:focus, select:focus{
         border: 1px solid #f8941d ;
@@ -3309,6 +3314,7 @@ body{
         transform: translate(-50%,-50%);
         -webkit-transform: translate(-50%,-50%);
         border-radius: 5px;
+        z-index: 9999999;
     }
 
     #contactForm h1{
@@ -3328,6 +3334,7 @@ body{
         display: block;
         width: 280px;
         padding: .4em;
+        border: 1px solid #8d8d8d
     }
     input:focus, textarea:focus, select:focus{
         border: 1px solid #f8941d ;
@@ -3380,6 +3387,7 @@ body{
         max-width: 100%;
         height: auto;
         border: 3px solid #eeeeee;
+        padding: 220px 0 50px 0;
     }
 
 .wrapper .languages #jcl-demo .custom-container .carousel {
@@ -3516,6 +3524,7 @@ body{
         max-width: 100%;
         height: auto;
         border: 3px solid #eeeeee;
+        padding: 30px 0;
     }
 
     .wrapper .languages #jcl-demo .custom-container .carousel {
@@ -3655,6 +3664,7 @@ body{
         max-width: 100%;
         height: auto;
         border: 3px solid #eeeeee;
+        padding: 30px 0 0 0;
     }
 
     .wrapper .languages #jcl-demo .custom-container .carousel {
@@ -3805,7 +3815,7 @@ body{
     .wrapper footer .sign_up{
         background-color: #2cc4ee;
         border-bottom: 2px solid white;
-        padding: 10px 0;
+        padding: 250px 0 50px 0;
     }
     .wrapper footer .sign_up .sign_content{
         width: 80%;
@@ -4053,7 +4063,7 @@ body{
     .wrapper footer .sign_up{
         background-color: #2cc4ee;
         border-bottom: 2px solid white;
-        padding: 10px 0;
+        padding: 70px 0 20px 0;
     }
     .wrapper footer .sign_up .sign_content{
         width: 80%;
@@ -4302,7 +4312,7 @@ body{
     .wrapper footer .sign_up{
         background-color: #2cc4ee;
         border-bottom: 2px solid white;
-        padding: 10px 0;
+        padding: 96px 0 80px 0;
     }
     .wrapper footer .sign_up .sign_content{
         width: 80%;
@@ -4557,7 +4567,7 @@ body{
     .wrapper footer .sign_up{
         background-color: #2cc4ee;
         border-bottom: 2px solid white;
-        padding: 10px 0;
+        padding: 90px 0;
     }
     .wrapper footer .sign_up .sign_content{
         width: 80%;
@@ -4812,7 +4822,7 @@ body{
     .wrapper footer .sign_up{
         background-color: #2cc4ee;
         border-bottom: 2px solid white;
-        padding: 10px 0;
+        padding: 90px 0;
     }
     .wrapper footer .sign_up .sign_content{
         width: 80%;
